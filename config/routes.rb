@@ -1,5 +1,5 @@
 LionWitch::Application.routes.draw do
-  get "wardrobe_items/index"
+  resources :wardrobe_items
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

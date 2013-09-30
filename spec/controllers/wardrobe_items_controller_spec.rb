@@ -1,5 +1,11 @@
 require 'spec_helper'
 
 describe WardrobeItemsController do
-
+  describe "GET index" do
+    it "assigns all wardrobe items as @wardrobe_items" do
+      wardrobe_item = WardrobeItem.create
+      get :index
+      # expect(assign('wardrobe_item')).to eq([wardrobe_item])
+    end
+  end
 end
